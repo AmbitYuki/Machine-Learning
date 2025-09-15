@@ -2,6 +2,7 @@ import os
 import json
 import re
 
+
 def load_schemas(schema_path:str) -> dict:
     def list_schema_files(path, file_list):
         files = os.listdir(path)
