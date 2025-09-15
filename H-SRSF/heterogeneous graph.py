@@ -5,6 +5,7 @@ from .kg_rep import *
 import typing
 from typing import Any, Dict, List, Optional, Tuple
 
+
 def compute_metrics(class_ontology_dict:dict, prop_ontology_dict:dict) -> dict:
 
     # Construct ontology inheritance graph
